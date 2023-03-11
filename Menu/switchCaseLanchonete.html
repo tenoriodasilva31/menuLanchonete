@@ -8,7 +8,6 @@
 </head>
 <h1>Lanchonete</h1>
 <p>Seja Bem-Vindo</p>
-<p id="cliente"></p>
 <h2>Descrição do lanche escolhido: </h2>
 <p id="lanche"></p>
 <p id="desc"></p>
@@ -41,8 +40,10 @@
 
         }   
 
-        document.getElementById("escolha")
-        document.getElementById
+        document.getElementById("escolha").innerHTML(escolha);
+        document.getElementById("descricao").innerHTML(desc);
+        document.getElementById("lanche").innerHTML(lanche);
+    
     </script>    
 </body>
 </html>
